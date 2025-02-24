@@ -223,5 +223,11 @@ class IMU {
         }
     }
 }
-
-export default IMU; // ES Module (import)
+// Universal Module Definition (UMD)
+if (typeof module !== "undefined" && typeof module.exports !== "undefined") {
+    module.exports = IMU; // CommonJS (Node.js)
+} else if (typeof define === "function" && define.amd) {
+    define([], () => IMU); // AMD (RequireJS)
+} else {
+    window.IMU = IMU; // Global (Browser)
+}

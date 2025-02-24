@@ -64,11 +64,11 @@ imu.listen(data => {
 })
 ```
 
-#### `removeListener()`
+#### `removeListeners()`
 Stops listening to sensor events and cleans up event listeners.
 
 ```javascript
-imu.stop()
+imu.removeListeners()
 ```
 
 ### Data Format

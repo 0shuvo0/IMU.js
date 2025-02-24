@@ -1,0 +1,16 @@
+{
+  "name": "imujs",
+  "version": "1.0.0",
+  "description": "A lightweight JavaScript library for accessing and normalizing device motion and orientation sensors. IMU.js provides a simple interface to work with accelerometer, gyroscope, and device orientation data, with automatic handling of device orientation changes and sensor permissions.",
+  "main": "imu.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/0shuvo0/IMU.js"
+  },
+  "keywords": ["IMU", "sensor", "motion", "JavaScript"],
+  "author": "0shuvo0",
+  "license": "ISC"
+}
