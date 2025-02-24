@@ -14,8 +14,28 @@ A lightweight JavaScript library for accessing and normalizing device motion and
 
 ## Installation
 
+### **CDN / Direct Download**
+
+Download the latest version: [imu.umd.js](https://raw.githubusercontent.com/0shuvo0/IMU.js/refs/heads/main/imu.umd.js)
+
+Include it in your HTML file:
+
 ```html
-<script src="imu.js"></script>
+<script src="imu.umd.js"></script>
+```
+
+### **NPM (Node.js / Webpack / Vite / Parcel)**
+
+Install via npm:
+
+```sh
+npm install imujs
+```
+
+Import in your JavaScript file:
+
+```javascript
+import IMU from "imujs";
 ```
 
 ## Quick Start
@@ -198,3 +218,4 @@ MIT License
 ## Contributing
 
 Contributions are welcome! Please feel free to submit a Pull Request.
+
